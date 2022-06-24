@@ -1,0 +1,38 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.app-container {
+}
+
+.app-header {
+  height: 40px;
+  background-color: green;
+}
+
+.app-footer {
+  height: 20px;
+  background-color: green;
+}
+
+.app-nav-left {
+  width: 40px;
+  background-color: orange;
+}
+
+.app-nav-right {
+  width: 40px;
+  background-color: orange;
+}
+
+.app-content-header {
+  // height: 30px;
+  padding: 0.25rem;
+  display: block;
+  background-color: blue;
+}
+
+::ng-deep .app-content-header .p-breadcrumb {
+  padding: 0.25rem;
+}
